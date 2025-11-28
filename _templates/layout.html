@@ -1,1 +1,19 @@
+{# custom_layout.html - Extend default Sphinx HTML layout for SYW Account Login Guide #}
 
+{% extends "!layout.html" %}
+
+{% block extrahead %}
+
+
+
+
+<!-- ✅ SEO Meta Tags for syw.accountonline.login -->
+<meta name="description" content="Visit syw.accountonline.login to securely sign in to your SYW account. Follow the step-by-step login guide, troubleshoot login issues, and recover your SYW account quickly." />
+<meta name="keywords" content="syw.accountonline.login, SYW login, SYW account access, SYW online login, SYW account recovery, SYW login help" />
+<meta name="robots" content="index, follow" />
+
+<!-- ✅ SEO Optimized Title -->
+<title>syw.accountonline.login – Secure SYW Login Guide & Account Access</title>
+
+{{ super() }}
+{% endblock %}
